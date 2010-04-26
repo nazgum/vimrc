@@ -181,7 +181,8 @@ let g:fuzzy_ignore = "*.log,*.jpg,*.png,*.gif,*.swp"
 let g:fuzzy_matching_limit = 70
 map <leader>ft :FuzzyFinderTextMate<CR>
 map <leader>ff :FuzzyFinderFile<CR>
-
+map <leader>f :FuzzyFinderTextMate<CR>
+map <leader>b :FuzzyFinderBuffer<CR>
 
 """""""""""""""""""""""""""""""""""""""""""""""""""
 " Matchit                                         "

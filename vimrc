@@ -171,19 +171,6 @@ map <F8> :TrinityToggleNERDTree<CR>
 " XXX - Modified in Trinity_InitNERDTree function at line 93 in trinity.vim
 "let Tlist_Sort_Type = 'name'
 
-
-"""""""""""""""""""""""""""""""""""""""""""""""""
-" FuzzyFinder                                   "
-" Provides convenient ways to quickly reach the "
-" buffer/file/command/bookmark/tag you want.    "
-"""""""""""""""""""""""""""""""""""""""""""""""""
-let g:fuzzy_ignore = "*.log,*.jpg,*.png,*.gif,*.swp"
-let g:fuzzy_matching_limit = 70
-map <leader>ft :FuzzyFinderTextMate<CR>
-map <leader>ff :FuzzyFinderFile<CR>
-map <leader>f :FuzzyFinderTextMate<CR>
-map <leader>b :FuzzyFinderBuffer<CR>
-
 """""""""""""""""""""""""""""""""""""""""""""""""""
 " Matchit                                         "
 " Load matchit (% to bounce from do to end, etc.) "

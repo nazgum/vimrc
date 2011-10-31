@@ -1,4 +1,8 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =2
+let g:netrw_dirhist_cnt =6
 let g:netrw_dirhist_1='/home/nazgum/.vim/autoload/fuf'
 let g:netrw_dirhist_2='/var/www/8tasp/.git'
+let g:netrw_dirhist_3='/var/www/mmogs.net/.git'
+let g:netrw_dirhist_4='/home/nazgum/www/mmoguildsites/resque_mailer/lib/resque_mailer'
+let g:netrw_dirhist_5='/etc/mysql'
+let g:netrw_dirhist_6='/home/nazgum/.vim/after'

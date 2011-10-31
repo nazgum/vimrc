@@ -147,24 +147,6 @@ set wildmode=longest,full
 " Read on comments:
 set diffopt+=iwhite             " ignore whitespace in diff mode
 
-
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" Trinity																			                  "
-" This small plugin is just an IDE manager to control the three "
-" plugins(NERDtree, Source Explorer and Taglist)                "
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-map <F5> :TrinityToggleAll<CR>
-map <F6> :TrinityToggleSourceExplorer<CR>
-map <F7> :TrinityToggleTagList<CR>
-map <F8> :TrinityToggleNERDTree<CR>
-
-"" NERDtree
-" XXX - Modified in Trinity_InitNERDTree function at line 147 in trinity.vim
-" Set the window width to default
-" let g:NERDTreeWinSize = 30
-" Highlight the cursor line
-" let g:NERDTreeHighlightCursorline = 1
-
 "" TagList
 "
 " Sort type by order(default) or name
@@ -209,13 +191,12 @@ let g:acp_ignorecaseOption = 0
 let VCSCommandDisableMappings=1
 
 """"""""""""""""""""""""""""""""""""""""""""""""""
-" Vimwiki                                        "
-""""""""""""""""""""""""""""""""""""""""""""""""""
-let g:vimwiki_list = [{'path': '~/Documents/vimwiki/',
-			\ 'path_html': '~/Documents/vimwiki_html/'}]
-
-
-""""""""""""""""""""""""""""""""""""""""""""""""""
 " Ruby Debugger                                  "
 """"""""""""""""""""""""""""""""""""""""""""""""""
 " let g:ruby_debugger_fast_sender = 1
+"
+
+""""""""""""""""""""""""""""""""""""""""""""""""""
+" Pathogen Plugins                               "
+""""""""""""""""""""""""""""""""""""""""""""""""""
+call pathogen#infect()
